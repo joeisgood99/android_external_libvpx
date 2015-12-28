@@ -11,7 +11,7 @@ LOCAL_CFLAGS := -DHAVE_CONFIG_H=vpx_config.h
 
 # Want arm, not thumb, optimized
 LOCAL_ARM_MODE := arm
-LOCAL_CFLAGS += -O3
+LOCAL_CFLAGS += -Os
 
 LOCAL_C_INCLUDES := $(libvpx_source_dir)
 
